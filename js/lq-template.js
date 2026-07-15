@@ -1,21 +1,21 @@
 (function () {
     var stateKey = "lawyersQuartersTemplate";
     var briefing = {
-        Politics: {
-            title: "The five decisions shaping Abuja this week",
-            summary: "A concise guide to the votes, appointments and policy signals worth watching."
+        AGC: {
+            title: "Port Harcourt hosts the profession's flagship week",
+            summary: "Track the theme, plenaries, SIG sessions and networking moments defining AGC 2026."
         },
-        Business: {
-            title: "The inflation signals behind today's market moves",
-            summary: "Rates, lending costs and household prices in a three-minute brief."
+        Exhibition: {
+            title: "Legal commerce moves to the exhibition floor",
+            summary: "Booths, legal technology, publishers and corporate partners meet the AGC delegate market."
         },
-        Technology: {
-            title: "Digital ID rollout: privacy questions to track",
-            summary: "The access, verification and data protection issues behind the next phase."
+        Registration: {
+            title: "Registration is built for quick confirmation",
+            summary: "Delegates can follow the official payment, receipt and confirmation flow from the AGC site."
         },
-        World: {
-            title: "The ECOWAS trade corridor, explained",
-            summary: "What changes at the border, what remains uncertain and who benefits first."
+        Culture: {
+            title: "Unbarred and dinner events carry the social calendar",
+            summary: "The AGC experience pairs formal sessions with culture, networking and community moments."
         }
     };
 
