@@ -1,21 +1,29 @@
 (function () {
     var stateKey = "lawyersQuartersTemplate";
     var briefing = {
-        AGC: {
-            title: "Port Harcourt hosts the profession's flagship week",
-            summary: "Track the theme, plenaries, SIG sessions and networking moments defining AGC 2026."
-        },
-        Exhibition: {
-            title: "Legal commerce moves to the exhibition floor",
-            summary: "Booths, legal technology, publishers and corporate partners meet the AGC delegate market."
-        },
-        Registration: {
-            title: "Registration is built for quick confirmation",
-            summary: "Delegates can follow the official payment, receipt and confirmation flow from the AGC site."
+        Trending: {
+            title: "Trending news leads the day",
+            summary: "Follow culture, welfare, politics, technology, Yoruba and source-backed legal updates in one place."
         },
         Culture: {
-            title: "Unbarred and dinner events carry the social calendar",
-            summary: "The AGC experience pairs formal sessions with culture, networking and community moments."
+            title: "Culture and community stories stay close",
+            summary: "Track entertainment, language, events and the social moments shaping the public conversation."
+        },
+        Welfare: {
+            title: "Welfare watch keeps support in view",
+            summary: "Follow access, safety, registration, support and everyday public-interest updates."
+        },
+        Politics: {
+            title: "Politics stays under public scrutiny",
+            summary: "Follow accountability stories, government reaction, public commentary and national debate."
+        },
+        Technology: {
+            title: "Technology changes how the news moves",
+            summary: "Track legal tech, digital tools, media platforms, e-brochures and emerging online habits."
+        },
+        Yoruba: {
+            title: "Yoruba culture joins the daily watchlist",
+            summary: "Follow language, identity, entertainment and community stories with Yoruba cultural relevance."
         }
     };
 
