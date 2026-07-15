@@ -172,6 +172,14 @@
             });
         });
 
+        document.querySelectorAll(".lq-comment-form").forEach(function (form) {
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+                toast("Comment received for editorial review.");
+                form.reset();
+            });
+        });
+
         document.querySelectorAll(".js-push").forEach(function (button) {
             button.addEventListener("click", function () {
                 toast("Push alerts are enabled for this browser preview.");
