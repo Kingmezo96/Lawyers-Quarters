@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Read Lawyers' Quarters stories with a clean single-post reading view.">
+    <meta name="description" content="Explore the Lawyers' Quarters gallery: legal affairs, culture, welfare, politics, technology, Yoruba and Nigerian public-interest visual stories.">
     <meta name="theme-color" content="#e6003d">
 
-    <title>Reading - Lawyers' Quarters</title>
+    <title>Gallery - Lawyers' Quarters</title>
 
     <link rel="shortcut icon" type="image/x-icon" href="images/favicon.png">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
@@ -30,9 +30,9 @@
             <div class="container d-flex align-items-center justify-content-between">
                 <div class="links">
                     <ul>
-                        <li><a href="#"><i class="fa fa-calendar"></i> <span id="lq-date">Wednesday, 15 July 2026</span></a></li>
+                        <li><a href="#"><i class="fa fa-calendar"></i> <span id="lq-date">Thursday, 16 July 2026</span></a></li>
                         <li><a href="#"><i class="fa fa-map-marker"></i> Lagos, Nigeria</a></li>
-                        <li><a href="posts.html"><i class="fa fa-newspaper-o"></i> All posts</a></li>
+                        <li><a href="#newsletter"><i class="fa fa-envelope"></i> Morning briefings</a></li>
                     </ul>
                 </div>
                 <div class="links float-right">
@@ -59,8 +59,8 @@
                     </div>
                     <div class="col-lg-8">
                         <div class="lq-promo-strip">
-                            <span>Reading Section</span>
-                            <strong>Focused article view with source context, related stories and clean reading flow</strong>
+                            <span>Visual Desk</span>
+                            <strong>Images and story cards from the Lawyers' Quarters legal affairs and trending news desk</strong>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                                 <li><a href="index.html">Home</a></li>
                                 <li><a href="posts.html">Posts</a></li>
                                 <li><a href="about.html">About</a></li>
-                                <li><a href="gallery.html">Gallery</a></li>
+                                <li class="active"><a href="gallery.html">Gallery</a></li>
                                 <li><a href="index.html#culture">Culture</a></li>
                                 <li><a href="index.html#welfare">Welfare</a></li>
                                 <li><a href="index.html#politics">Politics</a></li>
@@ -102,43 +102,122 @@
         </div>
     </header>
 
-    <section class="lq-page-hero">
+    <section class="lq-page-hero lq-gallery-hero">
         <div class="container">
-            <span>Single Post</span>
-            <h1>Reading section for Lawyers' Quarters stories.</h1>
-            <p>Open any story from the post listing and read it in this focused article layout.</p>
+            <span>Gallery</span>
+            <h1>Visual stories from law, culture, public life and civic accountability.</h1>
+            <p>A cleaner gallery page for the Lawyers' Quarters visual desk, built from the supplied gallery layout and adapted to the newsroom brand.</p>
         </div>
     </section>
 
-    <main id="main-content" class="pt-5 pb-5">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8">
-                    <article id="lq-single-post" class="lq-post-reader"></article>
+    <main id="main-content">
+        <section class="lq-gallery-section pt-6 pb-5">
+            <div class="container">
+                <div class="lq-post-tools mb-4">
+                    <div>
+                        <strong>Lawyers' Quarters Gallery</strong>
+                        <p class="mb-0">Browse visual placeholders for the major editorial lanes.</p>
+                    </div>
+                    <a href="posts.html" class="nir-btn">Open all posts</a>
                 </div>
 
-                <aside class="col-lg-4">
-                    <div class="lq-post-sidebar">
-                        <div class="lq-post-sidebar-box mb-4">
-                            <h3>Related Stories</h3>
-                            <div id="lq-related-posts" class="lq-related-list"></div>
+                <div class="lq-gallery-grid">
+                    <article class="lq-gallery-card lq-gallery-card-large" data-story data-title="NBA AGC 2026 visual desk" data-category="legal affairs agc">
+                        <img src="images/lawyers-quarters/placeholders/nigeria-flags-stadium.jpg" alt="Nigerian flags above a stadium">
+                        <div class="lq-gallery-content">
+                            <span>AGC 2026</span>
+                            <h3><a href="post.html?slug=nba-agc-2026-port-harcourt">Africa's largest legal gathering</a></h3>
+                            <p>Port Harcourt, delegates, legal dialogue and the conference week.</p>
                         </div>
-                        <div class="lq-post-sidebar-box mb-4">
-                            <h3>Browse More</h3>
-                            <p>Return to the listing to browse every Lawyers' Quarters story by category.</p>
-                            <a href="posts.html" class="nir-btn w-100 text-center">Open post listing</a>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Legal practice and court documents" data-category="legal affairs">
+                        <img src="images/lawyers-quarters/placeholders/legal-gavel.jpg" alt="Gavel and scales on legal documents">
+                        <div class="lq-gallery-content">
+                            <span>Legal Affairs</span>
+                            <h3><a href="post.html?slug=beyond-limits-legal-practice">Practice reform</a></h3>
                         </div>
-                        <div class="lq-post-sidebar-box" id="newsletter">
-                            <h3>Morning Briefing</h3>
-                            <form class="newsletter-mini-form">
-                                <input type="email" placeholder="Enter your email" required>
-                                <input type="submit" class="nir-btn mt-2 w-100" value="Subscribe">
-                            </form>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Legal technology visual desk" data-category="technology">
+                        <img src="images/lawyers-quarters/placeholders/legal-tech.jpg" alt="Legal professionals reviewing digital documents">
+                        <div class="lq-gallery-content">
+                            <span>Technology</span>
+                            <h3><a href="post.html?slug=legal-tech-exhibition-marketplace">Legal tech marketplace</a></h3>
+                        </div>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Culture and Yoruba visual desk" data-category="culture yoruba">
+                        <img src="images/lawyers-quarters/placeholders/yoruba-culture.jpg" alt="Yoruba cultural performers with talking drums">
+                        <div class="lq-gallery-content">
+                            <span>Culture</span>
+                            <h3><a href="post.html?slug=culture-community-moments">Community moments</a></h3>
+                        </div>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Welfare and public support visual desk" data-category="welfare">
+                        <img src="images/lawyers-quarters/placeholders/welfare-outreach.jpg" alt="Community welfare outreach with Nigerian volunteers">
+                        <div class="lq-gallery-content">
+                            <span>Welfare</span>
+                            <h3><a href="post.html?slug=welfare-watch-access-support">Access and support</a></h3>
+                        </div>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Politics and accountability visual desk" data-category="politics">
+                        <img src="images/lawyers-quarters/placeholders/apc-flag.jpg" alt="APC flag at a Nigerian political rally">
+                        <div class="lq-gallery-content">
+                            <span>Politics</span>
+                            <h3><a href="post.html?slug=politics-public-accountability">Public accountability</a></h3>
+                        </div>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Security and public safety visual desk" data-category="security">
+                        <img src="images/lawyers-quarters/placeholders/civic-politics.jpg" alt="Nigerian public accountability briefing">
+                        <div class="lq-gallery-content">
+                            <span>Security</span>
+                            <h3><a href="post.html?slug=security-abia-raids">Developing stories</a></h3>
+                        </div>
+                    </article>
+
+                    <article class="lq-gallery-card" data-story data-title="Nigeria welfare and civic life visual desk" data-category="welfare nigeria">
+                        <img src="images/lawyers-quarters/placeholders/pray-for-nigeria.jpg" alt="Pray for Nigeria civic welfare poster">
+                        <div class="lq-gallery-content">
+                            <span>Nigeria</span>
+                            <h3><a href="posts.html">Civic watch</a></h3>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="lq-gallery-callout pb-5">
+            <div class="container">
+                <div class="lq-source-box mb-0">
+                    <strong>Visual policy:</strong> These are editorial placeholders and source-linked visuals for the Lawyers' Quarters preview. Replace with final credited photography as the newsroom asset library grows.
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter lq-newsletter pb-5">
+            <div class="container">
+                <div class="newsletter-main bg-navy p-5">
+                    <div class="row align-items-center">
+                        <div class="col-lg-6 mb-4 mb-lg-0">
+                            <h2 class="white mb-2">Get the visual and written briefing.</h2>
+                            <p class="white mb-0">A morning view across legal affairs, culture, welfare, politics, technology and Yoruba stories.</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="newsletter-form">
+                                <form class="newsletter-mini-form">
+                                    <input type="email" placeholder="Enter your email" required>
+                                    <input type="submit" class="nir-btn mt-2 w-100" value="Subscribe">
+                                </form>
+                            </div>
                         </div>
                     </div>
-                </aside>
+                </div>
             </div>
-        </div>
+        </section>
     </main>
 
     <footer class="pt-10 footermain">
@@ -154,7 +233,7 @@
                                     <small>News that holds up</small>
                                 </span>
                             </a>
-                            <p class="mt-3 mb-3 white">Focused reading for legal affairs and public-interest stories.</p>
+                            <p class="mt-3 mb-3 white">A source-led newsroom for Nigerian legal affairs, culture, politics, welfare and technology.</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 mb-4">
@@ -165,7 +244,6 @@
                                 <li><a href="posts.html">All Posts</a></li>
                                 <li><a href="about.html">About</a></li>
                                 <li><a href="gallery.html">Gallery</a></li>
-                                <li><a href="index.html#sources">Sources</a></li>
                             </ul>
                         </div>
                     </div>
@@ -204,7 +282,6 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/plugin.js"></script>
     <script src="js/main.js"></script>
-    <script src="js/lq-posts.js"></script>
     <script src="js/custom-nav.js"></script>
     <script src="js/lq-template.js"></script>
 </body>
