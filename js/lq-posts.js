@@ -1,6 +1,107 @@
 (function () {
     var posts = [
         {
+            slug: "from-the-editors-desk",
+            title: "From the Editor's Desk: meet Henry Barnabas Ehi, MICA",
+            kicker: "Magazine",
+            category: "Magazine",
+            date: "June Special Edition 2025",
+            author: "Henry Barnabas Ehi, MICA",
+            readTime: "4 min read",
+            image: "images/lawyers-quarters/magazine/editor-henry-barnabas-ehi.jpg",
+            alt: "Henry Barnabas Ehi, Editor-in-Chief of Lawyers' Quarters",
+            excerpt: "The editor introduces the second Lawyers' Quarters magazine edition as a special issue dedicated to vision, transformation and impact.",
+            source: "Lawyers' Quarters NBA-AGC edition",
+            sourceUrl: "documents/lawyers-quarters-nba-agc-edition.pdf",
+            tags: ["Magazine", "Editor's Desk", "Lawyers' Quarters"],
+            body: [
+                "Henry Barnabas Ehi, MICA, introduces the second edition of Lawyers' Quarters Magazine as a special issue centred on vision, transformation and impact.",
+                "The editor's note places Dr. Prada Uzodimma's story at the heart of the edition, presenting her work in law, disability rights and education advocacy as a reminder that young people are already shaping the present.",
+                "The note also turns attention to Mazi Afam Osigwe, SAN, and the leadership questions facing the Nigerian Bar Association, including welfare, digital transformation and advocacy for a stronger profession.",
+                "The edition closes its editorial frame around two major events on Nigeria's legal calendar: the NBA-SBL Business Law Conference and the NBA Annual General Conference."
+            ]
+        },
+        {
+            slug: "prada-uzodimma-30-and-rising",
+            title: "30 & Rising: celebrating Dr. Prada Uzodimma's unfolding legacy",
+            kicker: "Cover Feature",
+            category: "Magazine",
+            date: "June Special Edition 2025",
+            author: "Lawyers' Quarters Magazine",
+            readTime: "5 min read",
+            image: "images/lawyers-quarters/magazine/nba-agc-edition-cover.jpg",
+            alt: "Lawyers' Quarters NBA-AGC edition cover featuring the Prada Uzodimma story",
+            excerpt: "The magazine cover feature celebrates Dr. Prada Uzodimma as a lawyer, advocate and young leader shaping the public-interest conversation.",
+            source: "Lawyers' Quarters NBA-AGC edition",
+            sourceUrl: "documents/lawyers-quarters-nba-agc-edition.pdf",
+            tags: ["Magazine", "Cover Feature", "Leadership"],
+            body: [
+                "The NBA-AGC edition leads with Dr. Prada Uzodimma's story, framing her 30th birthday as more than a personal milestone.",
+                "The feature positions her work across legal practice, disability rights and education advocacy as evidence of a young leader building a more inclusive public space.",
+                "For Lawyers' Quarters readers, the story sits comfortably beside legal reform and civic accountability because it asks what purposeful leadership can look like before old definitions of seniority arrive."
+            ]
+        },
+        {
+            slug: "proactive-bar-afam-osigwe",
+            title: "A Proactive Bar: leadership, welfare and reform",
+            kicker: "Bar Leadership",
+            category: "Legal Affairs",
+            date: "June Special Edition 2025",
+            author: "Lawyers' Quarters Magazine",
+            readTime: "5 min read",
+            image: "images/lawyers-quarters/placeholders/legal-gavel.jpg",
+            alt: "Legal gavel and scales on court documents",
+            excerpt: "The magazine spotlights Mazi Afam Osigwe, SAN, and a leadership agenda around welfare, digital transformation and judicial advocacy.",
+            source: "Lawyers' Quarters NBA-AGC edition",
+            sourceUrl: "documents/lawyers-quarters-nba-agc-edition.pdf",
+            tags: ["NBA", "Welfare", "Reform"],
+            body: [
+                "A Proactive Bar looks at the leadership of Mazi Afam Osigwe, SAN, as the Nigerian Bar Association faces questions about welfare, practice support and institutional reform.",
+                "The magazine's emphasis is practical: fair remuneration, a more responsive secretariat, stronger digital systems and advocacy that keeps the profession connected to justice delivery.",
+                "The feature also places inclusion and diversity inside the reform conversation, arguing that a modern bar must be attentive to the everyday needs of its members."
+            ]
+        },
+        {
+            slug: "nba-sbl-business-law-conference",
+            title: "NBA-SBL 19th Annual Business Law Conference",
+            kicker: "Business Law",
+            category: "Business Law",
+            date: "June Special Edition 2025",
+            author: "Lawyers' Quarters Magazine",
+            readTime: "4 min read",
+            image: "images/lawyers-quarters/placeholders/legal-tech.jpg",
+            alt: "Legal professionals reviewing digital documents",
+            excerpt: "The issue previews one of Nigeria's major business-law gatherings for lawyers, corporate advisers, innovators and policy voices.",
+            source: "Lawyers' Quarters NBA-AGC edition",
+            sourceUrl: "documents/lawyers-quarters-nba-agc-edition.pdf",
+            tags: ["Business Law", "NBA-SBL", "Conference"],
+            body: [
+                "The magazine previews the NBA-SBL 19th Annual Business Law Conference as a major gathering for business lawyers and corporate advisers.",
+                "The conference is presented as a space where law, policy, commerce and innovation meet, with sessions and networking designed for professionals working at the edge of legal and business practice.",
+                "For the Lawyers' Quarters desk, the value of the event is not only attendance. It is the way the gathering can shape practical competence, professional relationships and better commercial-law thinking."
+            ]
+        },
+        {
+            slug: "nba-agc-2025-enugu-destinations",
+            title: "NBA-AGC 2025: destinations to visit in Enugu",
+            kicker: "AGC Travel",
+            category: "Travel",
+            date: "June Special Edition 2025",
+            author: "Henry Barnabas Ehi, MICA",
+            readTime: "4 min read",
+            image: "images/lawyers-quarters/placeholders/nigeria-flags-stadium.jpg",
+            alt: "Nigerian flags flying above a stadium",
+            excerpt: "The edition gives delegates and visitors a wider Enugu guide, from Nike Lake Resort to Ngwo Pine Forest and the National Museum of Unity.",
+            source: "Lawyers' Quarters NBA-AGC edition",
+            sourceUrl: "documents/lawyers-quarters-nba-agc-edition.pdf",
+            tags: ["NBA-AGC", "Enugu", "Travel"],
+            body: [
+                "The NBA-AGC 2025 destination guide gives delegates a way to experience Enugu beyond conference halls and formal sessions.",
+                "Highlighted stops include Nike Lake Resort, Ngwo Pine Forest and Cave, the National Museum of Unity and other cultural or leisure points that can make the conference trip richer.",
+                "The guide's purpose is simple: help visitors combine professional development with a grounded sense of place."
+            ]
+        },
+        {
             slug: "nba-agc-2026-port-harcourt",
             title: "NBA AGC 2026 brings Africa's largest legal gathering to Port Harcourt",
             kicker: "AGC 2026",
