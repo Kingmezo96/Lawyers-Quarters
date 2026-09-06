@@ -321,9 +321,40 @@
 .lq-logo {
     display: inline-flex !important;
     align-items: center;
-    gap: 14px;
+    justify-content: flex-start;
     width: auto !important;
+    max-width: 100%;
     text-decoration: none;
+    line-height: 0;
+}
+
+.lq-logo-img {
+    display: block;
+    width: clamp(205px, 18vw, 275px);
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transition: transform .22s ease, filter .22s ease;
+}
+
+.lq-logo:hover .lq-logo-img,
+.lq-logo:focus .lq-logo-img {
+    filter: drop-shadow(0 10px 18px rgba(6, 23, 42, .12));
+    transform: translateY(-1px);
+}
+
+.lq-logo-light {
+    width: fit-content !important;
+    max-width: 100%;
+    padding: 8px 12px;
+    border: 1px solid rgba(230, 0, 61, .14);
+    border-radius: 22px;
+    background: rgba(255, 255, 255, .96);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, .16);
+}
+
+.lq-logo-light .lq-logo-img {
+    width: clamp(205px, 22vw, 255px);
 }
 
 .lq-logo-mark {
@@ -418,20 +449,8 @@
     margin: 0 !important;
 }
 
-.lq-template .navbar-middle .lq-logo-mark {
-    width: 52px;
-    height: 52px;
-    flex-basis: 52px;
-    border-radius: 14px;
-    font-size: 18px;
-}
-
-.lq-template .navbar-middle .lq-logo-copy strong {
-    font-size: 26px;
-}
-
-.lq-template .navbar-middle .lq-logo-copy small {
-    font-size: 10px;
+.lq-template .navbar-middle .lq-logo-img {
+    width: clamp(215px, 20vw, 300px);
 }
 
 .lq-promo-strip {
@@ -1857,14 +1876,13 @@
 }
 
 @media (max-width: 575px) {
-    .lq-logo-mark {
-        width: 48px;
-        height: 48px;
-        flex-basis: 48px;
+    .lq-logo-img {
+        width: min(70vw, 235px);
     }
 
-    .lq-logo-copy strong {
-        font-size: 23px;
+    .lq-logo-light {
+        padding: 7px 10px;
+        border-radius: 18px;
     }
 
     .lq-promo-strip {
@@ -1877,14 +1895,8 @@
         padding-bottom: 8px;
     }
 
-    .lq-template .navbar-middle .lq-logo-copy strong {
-        font-size: 22px;
-    }
-
-    .lq-template .navbar-middle .lq-logo-mark {
-        width: 48px;
-        height: 48px;
-        flex-basis: 48px;
+    .lq-template .navbar-middle .lq-logo-img {
+        width: min(72vw, 245px);
     }
 
     .lq-template .main_header_area.headerstye-2 .header_menu .navbar-collapse1 {
