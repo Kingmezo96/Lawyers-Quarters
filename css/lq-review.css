@@ -1,5 +1,8 @@
 /* November editorial review: responsive reading and accessible navigation. */
 body.lq-template{--lq-accent:#781c38;--lq-accent-2:#781c38;--lq-accent-dark:#551329;--lq-red:#781c38}
+body.lq-template .theme,body.lq-template a.theme,body.lq-template .lq-review-nav a:hover{color:#781c38!important}
+body.lq-template .bg-theme,body.lq-template .lq-topic-pills button.active{background:#781c38!important;color:white!important}
+body.lq-template .nir-btn{background-image:none!important}
 body.lq-template .navbar-middle[hidden]{display:none!important}
 body.lq-template .navbar-flex{gap:24px}
 body.lq-template .lq-compact-brand{position:relative;flex:0 0 180px;width:180px!important;height:72px;overflow:hidden}
