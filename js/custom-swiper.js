@@ -15,9 +15,7 @@ var interleaveOffset = 0.5;
             el: '.swiper-pagination',
             clickable: true,
           },
-        autoplay: {
-            delay: 3000,
-        },
+        autoplay: false,
         fadeEffect: {
             crossFade: true
         },
