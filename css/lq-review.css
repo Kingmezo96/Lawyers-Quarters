@@ -1,4 +1,11 @@
 /* November editorial review: responsive reading and accessible navigation. */
+/* Compact, monochrome branding across the header and dark surfaces. */
+body.lq-template .navbar-middle .lq-logo-img{width:190px;max-width:100%;height:auto;filter:grayscale(1) contrast(12);mix-blend-mode:multiply;transform:none}
+body.lq-template .navbar-middle{padding-top:14px!important;padding-bottom:14px!important;background:#fff}
+body.lq-template .navbar-middle .lq-promo-strip{display:none!important}
+body.lq-template .lq-logo-light{padding:0;border:0;border-radius:0;background:transparent;box-shadow:none}
+body.lq-template .lq-logo-light .lq-logo-img{width:210px;max-width:100%;filter:grayscale(1) contrast(12) invert(1);mix-blend-mode:screen;transform:none}
+@media(max-width:575px){body.lq-template .navbar-middle .lq-logo-img{width:165px}}
 /* Scoped card and type corrections; specificity overrides the template. */
 body.lq-template :is(h1,h2,h3,h4,h5,h6){font-family:Arial,Helvetica,sans-serif;font-weight:600;letter-spacing:-.025em;line-height:1.25;text-transform:none;overflow-wrap:break-word}
 body.lq-template .header-content a,body.lq-template .header-content li,body.lq-template .lq-review-nav a,body.lq-template .lq-review-nav summary{font-weight:500;font-family:Arial,Helvetica,sans-serif}
