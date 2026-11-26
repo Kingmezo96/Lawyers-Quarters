@@ -1,7 +1,7 @@
 (function(){
 var story=window.LQ_PUSG;if(!story)return;
 var url='post.html?slug='+story.slug;
-var lead=document.querySelector('.swiper-slide');
+var lead=null; // Homepage lead is rendered in HTML before slider initialization.
 if(lead){lead.dataset.title=story.title;lead.dataset.category='scholarship welfare education';lead.querySelector('.slide-image').style.backgroundImage='url('+story.image+')';lead.querySelector('h1 a').textContent=story.title;lead.querySelector('.swiper-content>p').textContent=story.excerpt;lead.querySelectorAll('a').forEach(function(a){a.href=url});lead.querySelector('.entry-category a').textContent='Law School Scholarship';lead.querySelector('.entry-author').innerHTML='<a class="white" href="'+url+'">Read full story →</a>';}
 document.addEventListener('DOMContentLoaded',function(){
 if(new URLSearchParams(location.search).get('slug')!==story.slug)return;
