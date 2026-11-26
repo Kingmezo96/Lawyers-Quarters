@@ -401,6 +401,7 @@
         }
     }
 
+    if(window.LQ_PUSG) posts.unshift(window.LQ_PUSG);
     document.addEventListener("DOMContentLoaded", function () {
         renderPostList();
         renderSinglePost();
